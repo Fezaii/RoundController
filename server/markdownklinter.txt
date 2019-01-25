@@ -1,0 +1,26 @@
+#!/bin/sh
+
+me=`basename "$0"`
+
+######### MD ##########
+printf "\n\n\n########## Begin markdown files check\n"
+markdownlint -i **/vars.md -c /etc/md/mdlint.json ./
+mdres=$?
+
+echo -e "\n____________________________________________________________________"
+echo -e "For more informations about Markdown Linter Rules, please refer to"
+echo -e "https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md"
+
+if
+[ $mdres -eq 0 ]
+then
+        export STATUS="success"
+        export COLOR_CODE="4c1"
+        envsubst < "/root/${me}.svg" > "${me}.svg"
+        exit 0
+else
+        export STATUS="failure"
+        export COLOR_CODE="e05d44"
+        envsubst < "/root/${me}.svg" > "${me}.svg"
+        exit 1
+fi

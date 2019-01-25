@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="user_txt">Mail</string>
+    <string name="pass_txt">Password</string>
+    <string name="passconf_txt">Confirm Password</string>
+    <string name="login">Sign in</string>
+    <string name="app_name">RounController</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nfc_reading">Reading NFC&#8230;</string>
+    <string name="writencf">WriteOnNFCTag</string>
+    <string name="readnfc">Scan</string>
+    <string name="label_demo_nfc">ROUND CONTROLLER</string>
+    <string name="message">Veuillez écrire un message....</string>
+    <string name="Content">Content : </string>
+    <string name="apropos">A propos</string>
+    <string name="quitter">Quitter</string>
+    <string name="mbds">MBDS</string>
+    <string name="location_txt">New Location</string>
+    <string name="users_list">Users</string>
+    <string name="add_user">New  user</string>
+    <string name="locationss_txt">Locations</string>
+    <string name="title_txt">Administrator space</string>
+    <string name="title1_txt">User space</string>
+
+    <string name="add_txt">Create</string>
+
+
+    <string name="scan">Scan</string>
+    <string name="endOfround">Finish</string>
+
+
+
+
+    <string name="mail_txt">mail</string>
+    <string name="name_txt">name</string>
+    <string name="password_txt">password</string>
+    <string name="role_txt">role</string>
+    <string name="register">Submit</string>
+    <string name="tagid_txt">TagID</string>
+    <string name="content_txt">Name</string>
+    <string name="history_txt">History</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUserActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/name_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="@string/name_txt" />
+
+    <EditText
+        android:id="@+id/name_box"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/mail_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="@string/mail_txt" />
+
+    <EditText
+        android:id="@+id/mail_box"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/password_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="@string/password_txt" />
+
+    <EditText
+        android:id="@+id/password_box"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/role_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="@string/role_txt" />
+
+    <EditText
+        android:id="@+id/role_box"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:onClick="register"/>
+
+</LinearLayout>

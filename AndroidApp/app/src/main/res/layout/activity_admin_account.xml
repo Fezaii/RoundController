@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAccountActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/position2_txt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/add_user"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:onClick="AddUser"
+        android:text="@string/add_user"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/position3_txt"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/dropuser"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:onClick="deleteUser"
+        android:text="Delete User"
+        android:textAlignment="center"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/position33_txt"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/addlocation_txt"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:onClick="AddLocation"
+        android:text="@string/location_txt"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/position4_txt"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <Button
+        android:id="@+id/droplocation"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:onClick="deleteLocation"
+        android:text="Delete location"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/position333_txt"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/history_txt"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:onClick="history"
+        android:text="@string/history_txt"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="quit"
+        android:text="Log Out" />
+
+</LinearLayout>
